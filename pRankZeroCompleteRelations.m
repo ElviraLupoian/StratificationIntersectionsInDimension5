@@ -11,11 +11,11 @@ Sdim := [ <a, &+a> : a in SZero ];
 print "Below is the complete list of closure relations in the Ekedahl-Oort stratification in dimension 5";
 print " the list <i,a,M>  is to be read as follows";
 print " a is an elementary sequence defining an Ekedahl-Oort strata of dimension i";
-print "M is the complete list of elementary sequence defining EO strata of dimension i+1, whose Zariski closure contains a";
+print "M is the complete list of elementary sequence defining EO strata of dimension > i, whose Zariski closure contains a";
 
 for i in [0..#Sdim] do ;
 S1 := [ a[1] : a in Sdim | a[2] eq  i ] ;
-S2 := [ a[1] : a in Sdim | a[2] eq i +1];
+S2 := [ a[1] : a in Sdim | a[2] ge i];
 N := #S1;
 for t in [1..N] do ;
 a := S1[t] ;
