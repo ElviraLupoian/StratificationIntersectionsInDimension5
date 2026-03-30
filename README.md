@@ -8,3 +8,4 @@ The file 'generalfunctions.m' contains functions which compute additions of elme
 
 
 
+The file: ver.m contains the matrices defined by the explicit constructions of Section 5
