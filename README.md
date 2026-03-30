@@ -1,6 +1,6 @@
 
 
-This is code accompanies the pre-print: 'Intersections of the Ekedahl-Oort and Newton strata of A_5'
+This is Magma code which accompanies the pre-print: 'Intersections of the Ekedahl-Oort and Newton strata of A_5'
 
 The file 'generalfunctions.m' contains functions which compute additions of elmentary sequences. The main functions are:
 1. addition : whose input is two elementary sequences (of any dimension) with no common factors and the output is their sum
